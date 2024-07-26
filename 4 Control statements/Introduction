@@ -1,0 +1,75 @@
+Control Statements
+------------------
+The statement or instructions are used to inform the computer to perform the task when the program is being executed.
+
+Types of Control statement : 
+----------------------------
+There are 4 types of control statements : 
+
+a. Sequential control statement
+action 1------------->action 2--------------->action 3
+Input         Formula Implementation          Output
+                    (Process)
+Ex : p,r,t      si = (p*r*t)/100          o/p : si             
+
+b. conditional control statement
+    (Decision control statement)
+    i. if statement
+    ii. if else statement
+    iii. nested if else statement
+        syntax-I: 
+            if(condition){
+                statement 1 to n
+            }else{
+                if(condition)
+                    statement 1 to n
+                else
+                    statement 1 to n
+            }
+        
+        syntax-II: 
+            if(condition){
+                if(condition)
+                    statement 1 to n
+                else
+                    statement 1 to n
+            }else{
+                statement 1 to n
+            }
+
+        syntax-III : 
+            if(condition){
+                if(condition)
+                    statement 1 to n
+                else
+                    statement 1 to n
+            }else{
+                if(condition)
+                    statement 1 to n
+                else
+                    statement 1 to n
+            }
+
+    iv. else if ladder
+
+c. Switch control statement
+   -- Switch is mainly used for menu based programming.
+   -- Switch works on the concept of cases.
+      case 1 :       case 'a' :        case '+' :     
+      case 2 :       case 'B' :        case '-' : 
+      case 3 :       case 'C' :        case '*' :
+   -- Duplicate case not allowed.
+   -- Switch takes constant, variables and expressions
+   -- syntax : 
+        switch(constant | variable | expression){
+            case 1 : ......
+                     break;
+            case 2 : ......
+                     break;
+               |       |
+            default : ......
+                      break;       
+        }     
+
+d. Looping control statement
+
