@@ -1,13 +1,14 @@
-// program showing the concept of loops
+// program to print factors of a number
 
 import java.util.Scanner;
-class Demo2{
+class Demo4{
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number : ");
         int num = sc.nextInt();
-        for(int i=1;i<=10;i++){
-            System.out.println(num+" x "+i+" = "+(num*i));
+        for(int i=1;i<=num;i++){
+            if(num%i==0)
+                System.out.print("\t"+i);
         }
     }
 }
