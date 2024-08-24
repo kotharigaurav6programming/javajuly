@@ -1,0 +1,49 @@
+OOP's (Object Oriented Programming)
+-----------------------------------
+It is a way of modularizing a program which allocates partitioned memory area for both data and function and using them as a template and call the copies of such modules on demand.
+
+class Student
+|-- Data Member
+     |-- int rno
+     |-- double per
+     |-- String name
+|-- Member Function 
+     |-- void getData()
+     |-- void showData()		
+ 
+OOPS Characteristics : 
+----------------------
+1. Emphasis is on data rather than procedure.
+2. Large programs are divided into what are known as objects.
+3. New Data can be added anywhere when ever required.
+4. Data is hidden and cannot be accessible from outside world.
+5. Follows bottom up approach.
+
+OOPS Concept : 
+--------------
+1. class
+2. object
+3. inheritance *
+4. encapsulation *
+5. polymorphism *
+6. abstraction *
+
+* 4 building blocks or pillars in oops
+
+1. class :
+   a. class is a userdefined datatype for creating objects.
+   b. class consists of similar type of object.
+   c. class is a logical entity.
+   d. class consists of data members and member functions.	 
+
+2. object : 
+   a. object is a real world entity
+   b. object is also termed as run time entity
+   c. every object have some physical existence thats why we can call      
+      it as a physical entity
+   d. every object belongs to some specific class
+   e. objects may communicate with each other through functions
+   f. every object have some state(data composition), identity and    
+      behaviour
+
+
