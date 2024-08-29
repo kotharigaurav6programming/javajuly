@@ -1,5 +1,5 @@
 // program showing the concept of constructor
-// shallow copy constructor
+// deep copy constructor
 
 class Address{
     String state,country;
